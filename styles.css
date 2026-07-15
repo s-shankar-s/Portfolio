@@ -1154,9 +1154,12 @@ h3 {
 
 @media (max-width: 768px) {
   .timeline-marker {
+    position: relative;
     width: 50px;
     height: 40px;
     font-size: 0.75rem;
+    margin-left: -25px;
+    top: auto;
   }
 }
 
@@ -1309,8 +1312,11 @@ h3 {
 
 @media (max-width: 768px) {
   .academic-year {
+    position: relative;
     min-height: 44px;
     font-size: 0.85rem;
+    margin-left: -35px;
+    top: auto;
   }
 }
 
