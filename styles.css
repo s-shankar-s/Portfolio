@@ -123,18 +123,6 @@ img {
   padding: 86px 6vw;
 }
 
-@media (max-width: 768px) {
-  .section-band {
-    padding: 48px 6vw;
-  }
-}
-
-@media (max-width: 480px) {
-  .section-band {
-    padding: 32px 6vw;
-  }
-}
-
 .reveal {
   opacity: 0;
   transform: translateY(28px);
@@ -153,21 +141,6 @@ img {
   gap: 56px;
   min-height: calc(100vh - 72px);
   padding-top: 56px;
-}
-
-@media (max-width: 1024px) {
-  .hero {
-    grid-template-columns: 1fr;
-    min-height: auto;
-    gap: 32px;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero {
-    gap: 24px;
-    padding-top: 28px;
-  }
 }
 
 .hero-copy {
@@ -234,12 +207,6 @@ h3 {
   font-size: 1.25rem;
 }
 
-@media (max-width: 768px) {
-  h3 {
-    font-size: 1.1rem;
-  }
-}
-
 .role {
   margin-bottom: 18px;
   color: var(--gold);
@@ -251,12 +218,6 @@ h3 {
   max-width: 650px;
   color: var(--muted);
   font-size: 1.08rem;
-}
-
-@media (max-width: 768px) {
-  .hero-text {
-    font-size: 1rem;
-  }
 }
 
 .hero-focus {
@@ -278,13 +239,6 @@ h3 {
   box-shadow: 0 8px 22px rgba(24, 37, 54, 0.05);
 }
 
-@media (max-width: 768px) {
-  .hero-focus span {
-    font-size: 0.8rem;
-    padding: 7px 10px;
-  }
-}
-
 .hero-actions {
   flex-wrap: wrap;
   gap: 14px;
@@ -299,14 +253,6 @@ h3 {
   margin-top: 32px;
 }
 
-@media (max-width: 768px) {
-  .hero-stats {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 12px;
-    margin-top: 24px;
-  }
-}
-
 .hero-stats div {
   position: relative;
   overflow: hidden;
@@ -314,12 +260,6 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.78);
-}
-
-@media (max-width: 480px) {
-  .hero-stats div {
-    padding: 12px;
-  }
 }
 
 .hero-stats div::after {
@@ -340,24 +280,12 @@ h3 {
   line-height: 1;
 }
 
-@media (max-width: 768px) {
-  .hero-stats strong {
-    font-size: 1.25rem;
-  }
-}
-
 .hero-stats span {
   display: block;
   margin-top: 6px;
   color: var(--muted);
   font-size: 0.88rem;
   font-weight: 700;
-}
-
-@media (max-width: 768px) {
-  .hero-stats span {
-    font-size: 0.75rem;
-  }
 }
 
 .btn {
@@ -401,18 +329,6 @@ h3 {
   border-radius: 8px;
 }
 
-@media (max-width: 1024px) {
-  .hero-visual {
-    min-height: 400px;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-visual {
-    min-height: 300px;
-  }
-}
-
 .hero-visual::before {
   position: absolute;
   inset: 48px 34px;
@@ -445,20 +361,6 @@ h3 {
   backdrop-filter: blur(18px);
 }
 
-@media (max-width: 768px) {
-  .orbital-card {
-    width: min(360px, 85vw);
-    padding: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .orbital-card {
-    width: min(300px, 90vw);
-    padding: 16px;
-  }
-}
-
 .orbital-card::after {
   display: block;
   width: 82px;
@@ -477,21 +379,6 @@ h3 {
   border: 9px solid white;
   border-radius: 50%;
   box-shadow: 0 20px 45px rgba(14, 35, 45, 0.2);
-}
-
-@media (max-width: 768px) {
-  .headshot-frame {
-    width: min(220px, 50vw);
-    border: 8px solid white;
-    margin-bottom: 18px;
-  }
-}
-
-@media (max-width: 480px) {
-  .headshot-frame {
-    width: min(180px, 45vw);
-    border: 6px solid white;
-  }
 }
 
 .headshot-frame img {
@@ -520,12 +407,6 @@ h3 {
   box-shadow: 0 18px 38px rgba(14, 35, 45, 0.14);
   backdrop-filter: blur(14px);
   animation: floatCard 5s ease-in-out infinite;
-}
-
-@media (max-width: 1024px) {
-  .floating-proof {
-    display: none;
-  }
 }
 
 .floating-proof strong {
@@ -572,22 +453,6 @@ h3 {
   background: rgba(255, 255, 255, 0.94);
   box-shadow: 0 24px 58px rgba(14, 35, 45, 0.16);
   backdrop-filter: blur(16px);
-}
-
-@media (max-width: 1024px) {
-  .operations-board {
-    grid-template-columns: 1fr;
-    width: 100%;
-    position: relative;
-    bottom: auto;
-    right: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .operations-board {
-    display: none;
-  }
 }
 
 .operations-board div {
@@ -641,12 +506,6 @@ h3 {
 
 .section-heading {
   margin-bottom: 34px;
-}
-
-@media (max-width: 768px) {
-  .section-heading {
-    margin-bottom: 24px;
-  }
 }
 
 .available,
@@ -1158,7 +1017,7 @@ h3 {
     width: 50px;
     height: 40px;
     font-size: 0.75rem;
-    margin-left: -25px;
+    margin-left: -43px;
     top: auto;
   }
 }
@@ -1315,7 +1174,7 @@ h3 {
     position: relative;
     min-height: 44px;
     font-size: 0.85rem;
-    margin-left: -35px;
+    margin-left: -54px;
     top: auto;
   }
 }
